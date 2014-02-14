@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name     = 'CHFunctionalArrayAdditions'
+  s.name     = 'CHStringAdditions'
   s.version  = '1.0.0'
   s.license  = 'MIT'
   s.summary  = 'Convenience methods on NSString'
