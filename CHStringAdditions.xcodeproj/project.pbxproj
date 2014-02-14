@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB57FF6F18AE99F900025F5F /* CH_string_tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB57FF6E18AE99F900025F5F /* CH_string_tests.m */; };
 		DB71058E18AE9462000E5FC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB71058D18AE9462000E5FC3 /* Foundation.framework */; };
 		DB71059018AE9462000E5FC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB71058F18AE9462000E5FC3 /* CoreGraphics.framework */; };
 		DB71059218AE9462000E5FC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB71059118AE9462000E5FC3 /* UIKit.framework */; };
@@ -20,7 +21,6 @@
 		DB7105AE18AE9462000E5FC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB71058D18AE9462000E5FC3 /* Foundation.framework */; };
 		DB7105AF18AE9462000E5FC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB71059118AE9462000E5FC3 /* UIKit.framework */; };
 		DB7105B718AE9462000E5FC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB7105B518AE9462000E5FC3 /* InfoPlist.strings */; };
-		DB7105B918AE9462000E5FC3 /* CHStringAdditionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7105B818AE9462000E5FC3 /* CHStringAdditionsTests.m */; };
 		DB7105C518AE94A3000E5FC3 /* NSString+CHAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7105C418AE94A3000E5FC3 /* NSString+CHAdditions.m */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB57FF6E18AE99F900025F5F /* CH_string_tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CH_string_tests.m; sourceTree = "<group>"; };
 		DB71058A18AE9462000E5FC3 /* CHStringAdditions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHStringAdditions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB71058D18AE9462000E5FC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DB71058F18AE9462000E5FC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,7 +54,6 @@
 		DB7105AC18AE9462000E5FC3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DB7105B418AE9462000E5FC3 /* CHStringAdditionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CHStringAdditionsTests-Info.plist"; sourceTree = "<group>"; };
 		DB7105B618AE9462000E5FC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DB7105B818AE9462000E5FC3 /* CHStringAdditionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHStringAdditionsTests.m; sourceTree = "<group>"; };
 		DB7105C318AE94A3000E5FC3 /* NSString+CHAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+CHAdditions.h"; path = "Source/NSString+CHAdditions.h"; sourceTree = "<group>"; };
 		DB7105C418AE94A3000E5FC3 /* NSString+CHAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+CHAdditions.m"; path = "Source/NSString+CHAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,7 +141,7 @@
 		DB7105B218AE9462000E5FC3 /* CHStringAdditionsTests */ = {
 			isa = PBXGroup;
 			children = (
-				DB7105B818AE9462000E5FC3 /* CHStringAdditionsTests.m */,
+				DB57FF6E18AE99F900025F5F /* CH_string_tests.m */,
 				DB7105B318AE9462000E5FC3 /* Supporting Files */,
 			);
 			path = CHStringAdditionsTests;
@@ -274,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7105B918AE9462000E5FC3 /* CHStringAdditionsTests.m in Sources */,
+				DB57FF6F18AE99F900025F5F /* CH_string_tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +475,7 @@
 				DB7105BE18AE9462000E5FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB7105BF18AE9462000E5FC3 /* Build configuration list for PBXNativeTarget "CHStringAdditionsTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				DB7105C118AE9462000E5FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
